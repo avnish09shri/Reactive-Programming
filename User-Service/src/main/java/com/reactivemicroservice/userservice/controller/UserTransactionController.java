@@ -10,7 +10,7 @@ import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
 @RestController
-@RequestMapping("/user-transaction")
+@RequestMapping("user-transaction")
 public class UserTransactionController {
     @Autowired
     private TransactionService transactionService;

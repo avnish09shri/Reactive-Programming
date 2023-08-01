@@ -12,7 +12,7 @@
     <modules>
         <module>Product-Service</module>
         <module>User-Service</module>
-        <module>Order-Service</module>
+        <module>Order</module>
     </modules>
 
     <parent>
