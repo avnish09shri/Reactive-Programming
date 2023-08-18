@@ -23,7 +23,7 @@ public class UserClient {
     public Mono<TransactionResponseDto> authorizeTransaction(TransactionRequestDto requestDto){
         return this.webClient
                 .post()
-                .uri("transaction")
+                .uri("user-transaction")
                 .bodyValue(requestDto)
                 .retrieve()
                 .bodyToMono(TransactionResponseDto.class);
